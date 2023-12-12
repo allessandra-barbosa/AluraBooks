@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../imagens/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
 }
