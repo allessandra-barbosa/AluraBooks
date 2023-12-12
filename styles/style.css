@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url("header.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
